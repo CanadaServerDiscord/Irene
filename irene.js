@@ -29,29 +29,3 @@ function moveCursor(e) {
         heart.remove();
     }, 1000);
 }
-
-
-const button = document.getElementById('hoverButton');
-
-button.addEventListener('mouseenter', () => {
-  // Obtener el ancho y alto del contenedor
-  const containerWidth = window.innerWidth - button.offsetWidth;
-  const containerHeight = window.innerHeight - button.offsetHeight;
-
-  // Generar una posición aleatoria dentro del contenedor
-  const randomX = Math.floor(Math.random() * containerWidth);
-  const randomY = Math.floor(Math.random() * containerHeight);
-
-  // Aplicar la posición aleatoria al botón
-  button.style.left = `${randomX}px`;
-  button.style.top = `${randomY}px`;
-  button.style.marginLeft = '0px';
-});
-
-function handleClick(){
-    window.location.href = "./juanjo.html"
-}
-
-function handleClickIrene(){
-    window.location.href = "./irene.html"
-}

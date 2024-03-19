@@ -5,6 +5,10 @@
     
 }
 
+strong{
+    color: black;
+}
+
 body{
     min-height: 100vh;
     background-color: #111;
@@ -104,4 +108,10 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+}
+
+.text{
+    font-family: Tahoma, sans-serif;
+    color: #2A2A2A;
+    top: 70%;
 }
